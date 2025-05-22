@@ -20,7 +20,7 @@ export default function Batsman() {
   }
 
   return (
-    <div>
+    <div className="batsman">
       <h3>player: Bangla Batsman</h3>
       <p><small>six = {sixes}</small></p>
       {

@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.bowler{
+  border: 2px solid red;
+  margin: 15px;
+  border-radius: 20px;
+}
+.batsman{
+  border: 2px solid teal;
+  margin: 15px;
+  border-radius: 20px;
+}
