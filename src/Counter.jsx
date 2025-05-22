@@ -20,6 +20,8 @@ export default function Counter() {
     <div style={CounterStyle}>
       <h3>Count: {count}</h3>
       <button onClick={handleAdd}>Add</button>
+      <br />
+      <br />
     </div>
   );
 }

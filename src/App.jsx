@@ -34,7 +34,9 @@ function App() {
       <button onClick={function handleClick2() { alert('clicked 2') }}>click me2</button>
       <button onClick={handleClick3}>Click me 3</button>
       <button onClick={()=>alert('clicked4')}>Click me 4</button>
-      <button onClick={()=>handleClick5(10)}>Click add 5</button>
+      <button onClick={() => handleClick5(10)}>Click add 5</button>
+      <br />
+      <br />
       
     </>
   )

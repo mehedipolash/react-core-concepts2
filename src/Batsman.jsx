@@ -22,14 +22,16 @@ export default function Batsman() {
   return (
     <div className="batsman">
       <h3>player: Bangla Batsman</h3>
-      <p><small>six = {sixes}</small></p>
-      {
-        runs>50 && <p>Congratulations for 50!</p>
-      }
+      <p>
+        <small>six = {sixes}</small>
+      </p>
+      {runs > 50 && <p>Congratulations for 50!</p>}
       <h1>Score: {runs} </h1>
       <button onClick={handleSingle}>Singles</button>
       <button>Fours</button>
       <button onClick={handleSix}>Six</button>
+      <br />
+      <br />
     </div>
-  )
+  );
 }
